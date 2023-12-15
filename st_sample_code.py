@@ -6,7 +6,7 @@ from util.fss import *
 
 
 
-@st.cache_data()
+
 def get_df(nm:str):
     now_year, prior_q = get_current_yymmdd()
     corp_df = get_highest_share(nm, now_year, prior_q)
